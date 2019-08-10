@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v2", "v2", "{47E93385-0EE0-4217-9C17-FC26B860E4C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimerTrigger", "TimerTrigger", "{19079612-4103-4575-A215-72E0970BD1DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerTrigger.v2", "v2\TimerTrigger\TimerTrigger.v2\TimerTrigger.v2.csproj", "{B2B6E323-389E-4700-ABA9-1CC98C57B927}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerTrigger.v2.Integracao.Testes", "v2\TimerTrigger\TimerTrigger.v2.Integracao.Testes\TimerTrigger.v2.Integracao.Testes.csproj", "{246A318C-F7DA-4043-B0B5-0EF0369EE8FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerTrigger.v2.Unidade.Testes", "v2\TimerTrigger\TimerTrigger.v2.Unidade.Testes\TimerTrigger.v2.Unidade.Testes.csproj", "{E989F7C3-14C5-4AE6-B59C-3FA18673D585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2B6E323-389E-4700-ABA9-1CC98C57B927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B6E323-389E-4700-ABA9-1CC98C57B927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B6E323-389E-4700-ABA9-1CC98C57B927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B6E323-389E-4700-ABA9-1CC98C57B927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246A318C-F7DA-4043-B0B5-0EF0369EE8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246A318C-F7DA-4043-B0B5-0EF0369EE8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246A318C-F7DA-4043-B0B5-0EF0369EE8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246A318C-F7DA-4043-B0B5-0EF0369EE8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E989F7C3-14C5-4AE6-B59C-3FA18673D585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E989F7C3-14C5-4AE6-B59C-3FA18673D585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E989F7C3-14C5-4AE6-B59C-3FA18673D585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E989F7C3-14C5-4AE6-B59C-3FA18673D585}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19079612-4103-4575-A215-72E0970BD1DF} = {47E93385-0EE0-4217-9C17-FC26B860E4C6}
+		{B2B6E323-389E-4700-ABA9-1CC98C57B927} = {19079612-4103-4575-A215-72E0970BD1DF}
+		{246A318C-F7DA-4043-B0B5-0EF0369EE8FE} = {19079612-4103-4575-A215-72E0970BD1DF}
+		{E989F7C3-14C5-4AE6-B59C-3FA18673D585} = {19079612-4103-4575-A215-72E0970BD1DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA942284-CA33-4CB6-9C1E-34730A35DECC}
+	EndGlobalSection
+EndGlobal
